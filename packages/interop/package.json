@@ -65,8 +65,5 @@
     "./dist/test/fixtures/create-helia.js": "./dist/test/fixtures/create-helia.browser.js",
     "go-ipfs": false
   },
-  "private": true,
-  "typedoc": {
-    "entryPoint": "./src/index.ts"
-  }
+  "private": true
 }

@@ -145,8 +145,5 @@
   "devDependencies": {
     "aegir": "^40.0.11",
     "blockstore-core": "^4.0.1"
-  },
-  "typedoc": {
-    "entryPoint": "./src/index.ts"
   }
 }

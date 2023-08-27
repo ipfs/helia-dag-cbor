@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@helia/dag-cbor": "^1.0.0",
-    "@helia/interface": "^1.0.0",
+    "@helia/interface": "^2.0.0",
     "@ipld/dag-cbor": "^9.0.0",
     "@libp2p/websockets": "^7.0.5",
     "aegir": "^40.0.11",

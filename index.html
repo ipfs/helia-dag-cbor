@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>@helia/dag-cbor - v1.0.3</title><meta name="description" content="Documentation for @helia/dag-cbor"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>@helia/dag-cbor - v0.0.0</title><meta name="description" content="Documentation for @helia/dag-cbor"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base=".">
 <div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="#icon-search"></use></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
@@ -6,12 +6,12 @@
 <div id="tsd-toolbar-links"></div></div>
 <ul class="results">
 <li class="state loading">Preparing search index...</li>
-<li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">@helia/dag-cbor - v1.0.3</a></div>
+<li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">@helia/dag-cbor - v0.0.0</a></div>
 <div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="#icon-menu"></use></svg></a></div></div></header>
 <div class="container container-main">
 <div class="col-content">
 <div class="tsd-page-title">
-<h2>@helia/dag-cbor - v1.0.3</h2></div>
+<h2>@helia/dag-cbor - v0.0.0</h2></div>
 <div class="tsd-panel tsd-typography"><p align="center">
   <a href="https://github.com/ipfs/helia" title="Helia">
     <img src="https://raw.githubusercontent.com/ipfs/helia/main/assets/helia.png" alt="Helia logo" width="300" />
@@ -23,24 +23,20 @@
 <a href="https://codecov.io/gh/ipfs/helia-dag-cbor"><img src="https://img.shields.io/codecov/c/github/ipfs/helia-dag-cbor.svg?style=flat-square" alt="codecov"></a>
 <a href="https://github.com/ipfs/helia-dag-cbor/actions/workflows/js-test-and-release.yml?query=branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/ipfs/helia-dag-cbor/js-test-and-release.yml?branch=main&style=flat-square" alt="CI"></a></p>
 <blockquote>
-<p>Add/get IPLD blocks containing dag-cbor with your Helia node</p>
+<p>Add/get IPLD blocks containing json with your Helia node</p>
 </blockquote>
 <a id="md:table-of-contents-" class="tsd-anchor"></a><h2><a href="#md:table-of-contents-">Table of contents <!-- omit in toc --></a></h2><ul>
-<li><a href="#install">Install</a><ul>
-<li><a href="#browser-script-tag">Browser <code>&lt;script&gt;</code> tag</a></li>
-</ul>
-</li>
+<li><a href="#structure">Structure</a></li>
 <li><a href="#api-docs">API Docs</a></li>
 <li><a href="#license">License</a></li>
 <li><a href="#contribute">Contribute</a></li>
 </ul>
-<a id="md:install" class="tsd-anchor"></a><h2><a href="#md:install">Install</a></h2><pre><code class="language-console"><span class="hl-1">$ npm i @helia/dag-cbor</span>
-</code><button>Copy</button></pre>
-<a id="md:browser-ltscriptgt-tag" class="tsd-anchor"></a><h3><a href="#md:browser-ltscriptgt-tag">Browser <code>&lt;script&gt;</code> tag</a></h3><p>Loading this module through a script tag will make it&#39;s exports available as <code>HeliaDagCbor</code> in the global namespace.</p>
-<pre><code class="language-html"><span class="hl-8">&lt;</span><span class="hl-9">script</span><span class="hl-10"> </span><span class="hl-11">src</span><span class="hl-10">=</span><span class="hl-12">&quot;https://unpkg.com/@helia/dag-cbor/dist/index.min.js&quot;</span><span class="hl-8">&gt;&lt;/</span><span class="hl-9">script</span><span class="hl-8">&gt;</span>
-</code><button>Copy</button></pre>
+<a id="md:structure" class="tsd-anchor"></a><h2><a href="#md:structure">Structure</a></h2><ul>
+<li><a href="./packages/dag-cbor"><code>/packages/dag-cbor</code></a> Add/get IPLD blocks containing dag-cbor with your Helia node</li>
+<li><a href="./packages/interop"><code>/packages/interop</code></a> Interop tests for @helia/dag-cbor</li>
+</ul>
 <a id="md:api-docs" class="tsd-anchor"></a><h2><a href="#md:api-docs">API Docs</a></h2><ul>
-<li><a href="https://ipfs.github.io/helia-dag-cbor/modules/_helia_dag_cbor.html">https://ipfs.github.io/helia-dag-cbor/modules/_helia_dag_cbor.html</a></li>
+<li><a href="https://ipfs.github.io/helia-dag-cbor">https://ipfs.github.io/helia-dag-cbor</a></li>
 </ul>
 <a id="md:license" class="tsd-anchor"></a><h2><a href="#md:license">License</a></h2><p>Licensed under either of</p>
 <ul>
@@ -64,8 +60,7 @@
 <ul id="tsd-filter-options">
 <li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><use href="#icon-checkbox"></use></svg><span>Protected</span></label></li>
 <li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-private" name="private"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><use href="#icon-checkbox"></use></svg><span>Private</span></label></li>
-<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><use href="#icon-checkbox"></use></svg><span>Inherited</span></label></li>
-<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><use href="#icon-checkbox"></use></svg><span>External</span></label></li></ul></form></div>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><use href="#icon-checkbox"></use></svg><span>Inherited</span></label></li></ul></form></div>
 <div class="tsd-theme-toggle">
 <h4 class="uppercase">Theme</h4><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
 <details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary">
@@ -78,15 +73,12 @@
 <li>
 <ul>
 <li><a href="#md:table-of-contents-"><span>Table of contents </span></a></li>
-<li><a href="#md:install"><span>Install</span></a></li>
-<li>
-<ul>
-<li><a href="#md:browser-ltscriptgt-tag"><span>Browser &lt;script&gt; tag</span></a></li></ul></li>
+<li><a href="#md:structure"><span>Structure</span></a></li>
 <li><a href="#md:api-docs"><span>API <wbr/>Docs</span></a></li>
 <li><a href="#md:license"><span>License</span></a></li>
 <li><a href="#md:contribute"><span>Contribute</span></a></li></ul></li></ul></li></ul></div></details></div>
 <div class="site-menu">
-<nav class="tsd-navigation"><a href="modules.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1"></use></svg><span>@helia/dag-cbor - v1.0.3</span></a>
+<nav class="tsd-navigation"><a href="modules.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-1"></use></svg><span>@helia/dag-cbor - v0.0.0</span></a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container" data-base=".">
 <li><a href="interfaces/AddOptions.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg>AddOptions</a></li>
 <li><a href="interfaces/DAGCBOR.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg>DAGCBOR</a></li>
